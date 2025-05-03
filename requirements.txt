@@ -34,46 +34,6 @@ tensorflow
 torch
 # For handling natural language processing
 transformers
-# For handling web scraping
-beautifulsoup4
-requests
-# For handling databases
-sqlalchemy
-# For handling cloud storage
-boto3
-# For handling APIs
-requests
-# For handling parallel processing
-multiprocessing
-# For handling distributed computing
-ray
-# For handling data validation
-great_expectations
-# For handling data versioning
-dvc
-# For handling data pipelines
-prefect
-# For handling data visualization
-altair
-# For handling data exploration
-pandas-profiling
-# For handling data cleaning
-dirty_cat
-# For handling data augmentation
-albumentations
-# For handling data transformation
-pyarrow
-# For handling data serialization
-fastparquet
+
 # For handling data streaming
 streamlit
-# For handling data versioning
-dvc
-# For handling data profiling
-pandas-profiling
-
-# For handling large datasets
-dask
-
-# For advanced data manipulation
-pyspark 
