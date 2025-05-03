@@ -39,7 +39,7 @@ source venv/bin/activate  # or `venv\Scripts\activate` on Windows
 pip install -r requirements.txt
 
 # Run the dashboard
-streamlit run app/main.py
+streamlit run app/app.py
 
 
 🧠 ML Models Used
