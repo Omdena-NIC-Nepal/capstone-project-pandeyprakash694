@@ -12,10 +12,10 @@ st.set_page_config(
 # Sidebar for navigation and branding
 with st.sidebar:
     st.title("🌱 Agri-Dashboard")
-    st.image(
-        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=400&q=80",
-        caption="Nepalese Agriculture",
-        use_container_width=True
+    # st.image(
+    #     "https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=400&q=80",
+    #     caption="Nepalese Agriculture",
+    #     use_container_width=True
     )
     st.markdown("---")
     st.caption(f"📅 {date.today().strftime('%B %d, %Y')}")
