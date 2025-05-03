@@ -1,39 +1,22 @@
-# Core packages
-pandas
-numpy
-scikit-learn
-xgboost
-geopandas
-matplotlib
-seaborn
-streamlit
+# Core
+pandas==2.2.1
+numpy==1.26.4
+scikit-learn==1.4.2
+xgboost==2.0.3
+streamlit==1.33.0
 
-# For handling geospatial data
-shapely
-pyproj
-fiona
-rtree
+# Geospatial (pin versions!)
+geopandas==0.14.3
+shapely==2.0.3
+pyproj==3.6.1
+fiona==1.9.5
+rtree==1.2.0
 
-# Caching & performance
-joblib
+# Visualization
+matplotlib==3.8.4
+seaborn==0.13.2
+plotly==5.20.0
 
-# Optional (for better visualization)
-plotly
-# For handling time series data
-statsmodels
-# For handling text data
-nltk
-# For handling images
-opencv-python
-# For handling audio data
-librosa
-# For handling video data
-moviepy
-# For handling deep learning
-tensorflow
-torch
-# For handling natural language processing
-transformers
-
-# For handling data streaming
-streamlit
+# Other
+joblib==1.4.0
+statsmodels==0.14.1
